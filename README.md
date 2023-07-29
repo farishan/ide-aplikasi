@@ -23,7 +23,13 @@ Pernah bingung karena mau bikin sesuatu tapi ga tau mau bikin apa? Cek repo ini,
 
 # Koleksi Ide
 
-| Nama      | Deskripsi Singkat                                    | Tingkat Kesulitan |
-|-----------|------------------------------------------------------|-------------------|
-| Note App  | Aplikasi untuk mencatat                              | Gampang           |
-| To-do App | Aplikasi untuk mencatat hal-hal yang harus dilakukan | Gampang           |
+| Nama              | Deskripsi Singkat                                    | Tingkat Kesulitan |
+|-------------------|------------------------------------------------------|-------------------|
+| Note App          | Aplikasi untuk mencatat                              | Gampang           |
+| To-do App         | Aplikasi untuk mencatat hal-hal yang harus dilakukan | Gampang           |
+| Reminder App      | Aplikasi untuk mengingatkan tentang sesuatu          | Gampang           |
+| Kalkulator        | Aplikasi untuk membantu operasi matematika dasar     | Gampang           |
+| Weather App       | Aplikasi untuk cek cuaca                             | Gampang           |
+| Penghitung Kalori | Aplikasi untuk cek kalori harian                     | Lumayan           |
+| Pencatat Keuangan | Aplikasi untuk mencatat keuangan                     | Lumayan           |
+| Galeri Foto       | Aplikasi untuk mengambil dan mengorganisasi gambar   | Susah             |
