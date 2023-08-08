@@ -1,4 +1,18 @@
-# Ide Apl5��
+# Ide Aplikasi
+Penampungan ide-ide aplikasi.
+
+---
+
+## Ide-ide di sini itu bisa untuk:
+- latihan ngoding
+- eksperimen teknologi/tech stack baru
+- portfolio untuk pamer ke calon tempat kerja baru
+- contoh ketika membuat tutorial teks/video
+- dikembangkan jadi aplikasi beneran yang bisa dijual
+
+---
+
+# Koleksi Ide
 
 | Nama              | Deskripsi Singkat                                    | Tingkat Kesulitan |
 | :---------------- | :--------------------------------------------------- | :---------------- |
@@ -13,5 +27,4 @@
 | Message Board App | Aplikasi untuk berbagi pesan di satu tempat          | Lumayan           |
 | Forum App         | Aplikasi untuk diskusi                               | Susah             |
 | PoS App           | Aplikasi Point of Sales (kasir)                      | Susah             |
-| E-commerce        | Toko online                                          | Susah             |
 
