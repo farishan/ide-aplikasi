@@ -48,5 +48,10 @@
     "name": "Forum App",
     "description": "Aplikasi untuk diskusi",
     "difficulty": 3
+  },
+  {
+    "name": "PoS App",
+    "description": "Aplikasi Point of Sales (kasir)",
+    "difficulty": 3
   }
 ]
