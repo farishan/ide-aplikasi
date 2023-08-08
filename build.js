@@ -13,7 +13,13 @@ async function updateReadme(repo = REPO) {
     const oldContent = Buffer.from(content, encoding).toString();
     const newContent = getNewContent()
     const updatedContent = merge(oldContent, newContent);
-    commitNewReadme(repo, path, sha, encoding, updatedContent)
+
+    /* WARNING: infinite loop */
+    if (oldContent !== updatedContent) {
+      commitNewReadme(repo, path, sha, encoding, updatedContent)
+    } else {
+      console.log("No need to update.")
+    }
   } catch (error) {
     console.log(error)
   }
