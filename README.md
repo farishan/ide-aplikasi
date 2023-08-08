@@ -1,18 +1,4 @@
-# Ide Aplikasi
-Penampungan ide-ide aplikasi.
-
----
-
-## Ide-ide di sini itu bisa untuk:
-- latihan ngoding
-- eksperimen teknologi/tech stack baru
-- portfolio untuk pamer ke calon tempat kerja baru
-- contoh ketika membuat tutorial teks/video
-- dikembangkan jadi aplikasi beneran yang bisa dijual
-
----
-
-# Koleksi Ide
+# Ide Apl5��
 
 | Nama              | Deskripsi Singkat                                    | Tingkat Kesulitan |
 | :---------------- | :--------------------------------------------------- | :---------------- |
