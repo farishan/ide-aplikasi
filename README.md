@@ -15,7 +15,7 @@ Penampungan ide-ide aplikasi.
 # Koleksi Ide
 
 | Nama              | Deskripsi Singkat                                    | Tingkat Kesulitan |
-|-------------------|------------------------------------------------------|-------------------|
+| :---------------- | :--------------------------------------------------- | :---------------- |
 | Note App          | Aplikasi untuk mencatat                              | Gampang           |
 | To-do App         | Aplikasi untuk mencatat hal-hal yang harus dilakukan | Gampang           |
 | Reminder App      | Aplikasi untuk mengingatkan tentang sesuatu          | Gampang           |
@@ -25,3 +25,5 @@ Penampungan ide-ide aplikasi.
 | Pencatat Keuangan | Aplikasi untuk mencatat keuangan                     | Lumayan           |
 | Galeri Foto       | Aplikasi untuk mengambil dan mengorganisasi gambar   | Susah             |
 | Message Board App | Aplikasi untuk berbagi pesan di satu tempat          | Lumayan           |
+| Forum App         | Aplikasi untuk diskusi                               | Susah             |
+

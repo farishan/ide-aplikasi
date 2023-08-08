@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Note App",
+    "description": "Aplikasi untuk mencatat",
+    "difficulty": 1
+  },
+  {
+    "name": "To-do App",
+    "description": "Aplikasi untuk mencatat hal-hal yang harus dilakukan",
+    "difficulty": 1
+  },
+  {
+    "name": "Reminder App",
+    "description": "Aplikasi untuk mengingatkan tentang sesuatu",
+    "difficulty": 1
+  },
+  {
+    "name": "Kalkulator",
+    "description": "Aplikasi untuk membantu operasi matematika dasar",
+    "difficulty": 1
+  },
+  {
+    "name": "Weather App",
+    "description": "Aplikasi untuk cek cuaca",
+    "difficulty": 1
+  },
+  {
+    "name": "Penghitung Kalori",
+    "description": "Aplikasi untuk cek kalori harian",
+    "difficulty": 2
+  },
+  {
+    "name": "Pencatat Keuangan",
+    "description": "Aplikasi untuk mencatat keuangan",
+    "difficulty": 2
+  },
+  {
+    "name": "Galeri Foto",
+    "description": "Aplikasi untuk mengambil dan mengorganisasi gambar",
+    "difficulty": 3
+  },
+  {
+    "name": "Message Board App",
+    "description": "Aplikasi untuk berbagi pesan di satu tempat",
+    "difficulty": 2
+  },
+  {
+    "name": "Forum App",
+    "description": "Aplikasi untuk diskusi",
+    "difficulty": 3
+  }
+]
