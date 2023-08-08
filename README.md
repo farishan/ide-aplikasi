@@ -28,4 +28,5 @@ Penampungan ide-ide aplikasi.
 | Forum App         | Aplikasi untuk diskusi                               | Susah             |
 | PoS App           | Aplikasi Point of Sales (kasir)                      | Susah             |
 | E-commerce        | Toko online                                          | Susah             |
+| Music App         | Aplikasi untuk dengerin musik                        | Lumayan           |
 
