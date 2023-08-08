@@ -27,5 +27,4 @@ Penampungan ide-ide aplikasi.
 | Message Board App | Aplikasi untuk berbagi pesan di satu tempat          | Lumayan           |
 | Forum App         | Aplikasi untuk diskusi                               | Susah             |
 | PoS App           | Aplikasi Point of Sales (kasir)                      | Susah             |
-| E-commerce        | Toko online                                          | Susah             |
 
