@@ -58,5 +58,10 @@
     "name": "E-commerce",
     "description": "Toko online",
     "difficulty": 3
+  },
+  {
+    "name": "Music App",
+    "description": "Aplikasi untuk dengerin musik",
+    "difficulty": 2
   }
 ]
