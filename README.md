@@ -24,3 +24,4 @@ Penampungan ide-ide aplikasi.
 | Penghitung Kalori | Aplikasi untuk cek kalori harian                     | Lumayan           |
 | Pencatat Keuangan | Aplikasi untuk mencatat keuangan                     | Lumayan           |
 | Galeri Foto       | Aplikasi untuk mengambil dan mengorganisasi gambar   | Susah             |
+| Message Board App | Aplikasi untuk berbagi pesan di satu tempat          | Lumayan           |
