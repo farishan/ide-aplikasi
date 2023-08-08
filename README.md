@@ -26,4 +26,5 @@ Penampungan ide-ide aplikasi.
 | Galeri Foto       | Aplikasi untuk mengambil dan mengorganisasi gambar   | Susah             |
 | Message Board App | Aplikasi untuk berbagi pesan di satu tempat          | Lumayan           |
 | Forum App         | Aplikasi untuk diskusi                               | Susah             |
+| PoS App           | Aplikasi Point of Sales (kasir)                      | Susah             |
 
