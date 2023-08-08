@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@octokit/core": "^5.0.0",
+    "dotenv": "^16.3.1",
     "tablemark": "^3.0.0"
   },
   "type": "module"

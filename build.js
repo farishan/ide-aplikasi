@@ -1,34 +1,35 @@
-import fs from 'fs';
-import tablemark from 'tablemark';
+import dotenv from 'dotenv'
+import octokit from '@octokit/core'
+import { getNewContent, merge } from './build-local.js';
+import { REPO, TARGET_FILE, USERNAME } from './config.js';
 
-/* CONFIG */
-const INSERTION_POINT = '# Koleksi Ide';
-const COLUMNS = ['Nama', 'Deskripsi Singkat', 'Tingkat Kesulitan'];
-const DIFFICULTY_MAP = {
-  1: 'Gampang',
-  2: 'Lumayan',
-  3: 'Susah'
-};
-const INPUT = './data.json';
-const TARGET_FILE = './README.md';
+dotenv.config()
+const client = new octokit.Octokit({ auth: process.env.TOKEN });
 
-function merge(markdownTable) {
-  const oldContent = fs.readFileSync(TARGET_FILE, 'utf-8');
-  const insertionPoint =
-    oldContent.indexOf(INSERTION_POINT) + INSERTION_POINT.length;
-  const newContent =
-    oldContent.slice(0, insertionPoint) + '\n\n' + markdownTable + '\n';
-  fs.writeFileSync(TARGET_FILE, newContent);
+async function updateReadme(repo = REPO) {
+  try {
+    const res = await client.request(`GET /repos/${USERNAME}/${repo}/contents/${TARGET_FILE}`)
+    const { path, sha, content, encoding } = res.data
+    const oldContent = Buffer.from(content, encoding).toString();
+    const newContent = getNewContent()
+    const updatedContent = merge(oldContent, newContent);
+    commitNewReadme(repo, path, sha, encoding, updatedContent)
+  } catch (error) {
+    console.log(error)
+  }
 }
 
-function main() {
-  const json = JSON.parse(fs.readFileSync(INPUT, 'utf-8'));
-  json.map((d) => (d.difficulty = DIFFICULTY_MAP[d.difficulty]));
-  const markdownTable = tablemark(json, { columns: COLUMNS });
-
-  merge(markdownTable);
-
-  console.log('Markdown table has been replaced in README.md.');
+async function commitNewReadme(repo, path, sha, encoding, updatedContent) {
+  try {
+    await client.request(`PUT /repos/${USERNAME}/${repo}/contents/${path}`, {
+      message: `Update ${TARGET_FILE} from script`,
+      content: Buffer.from(updatedContent, "utf-8").toString(encoding),
+      path,
+      sha
+    });
+  } catch (error) {
+    console.log(error)
+  }
 }
 
-main();
+updateReadme(REPO)
