@@ -53,5 +53,10 @@
     "name": "PoS App",
     "description": "Aplikasi Point of Sales (kasir)",
     "difficulty": 3
+  },
+  {
+    "name": "E-commerce",
+    "description": "Toko online",
+    "difficulty": 3
   }
 ]
