@@ -15,7 +15,9 @@ async function updateReadme(repo = REPO) {
     const updatedContent = merge(oldContent, newContent);
 
     /* WARNING: infinite loop */
+    // console.log({oldContent, updatedContent})
     if (oldContent !== updatedContent) {
+      // console.log({oldContent, updatedContent})
       commitNewReadme(repo, path, sha, encoding, updatedContent)
     } else {
       console.log("No need to update.")
@@ -26,6 +28,7 @@ async function updateReadme(repo = REPO) {
 }
 
 async function commitNewReadme(repo, path, sha, encoding, updatedContent) {
+  // console.log(Buffer.from(updatedContent, "utf-8").toString(encoding))
   try {
     await client.request(`PUT /repos/${USERNAME}/${repo}/contents/${path}`, {
       message: `Update ${TARGET_FILE} from script`,
